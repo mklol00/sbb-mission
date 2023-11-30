@@ -13,7 +13,7 @@ public class MainController {
     }
 
     @GetMapping("/")
-    public String root(){
+    public String root() {
         return "redirect:/question/list";
     }
 
